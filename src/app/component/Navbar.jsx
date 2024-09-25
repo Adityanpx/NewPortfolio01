@@ -45,8 +45,17 @@ function Navbar() {
             <img src="/hi.png" width={100} height={100} alt="logo" />
           </Link>
         </div>
+        <div className="hidden md:flex">
+        <nav className="flex gap-5 mr-28 p-8">
+          <Link href="/"> <Button className="text-white 
+          hover:text-red-500" variant="link">Home</Button></Link>
+          <Link href="/aboutUs"> <Button className="text-white" variant="link">About</Button></Link>
+          <Link href="/contact"> <Button className="text-white" variant="link">Contact me</Button></Link>
+          <Link href="/"> <Button className="text-white" variant="link">Another Link</Button></Link>
+        </nav>
+        </div>
         <div className="flex items-center">
-          <Button onClick={toggleSidebar} className="md:hidden">
+          <Button onClick={toggleSidebar} className="md:hidden bg-purple-500">
           <VscThreeBars />
           </Button>
         </div>

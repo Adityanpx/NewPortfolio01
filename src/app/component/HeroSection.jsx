@@ -25,7 +25,7 @@ function HeroSection() {
       ]}
       wrapper="span"
       speed={25}
-      className="sm:text-6xl lg:text-7xl"
+      className="sm:text-6xl text-purple-500 lg:text-7xl"
       style={{ display: 'inline-block' }}
       repeat={Infinity}
     />
@@ -47,7 +47,8 @@ function HeroSection() {
           </button>
 
           {/* Download CV button */}
-          <button className="px-6 w-full sm:w-fit mt-3 py-3 rounded-xl text-white hover:bg-slate-200 border border-white">
+          <button className="px-6 w-full sm:w-fit mt-3 py-3 rounded-xl text-white hover:bg-slate-200 border 
+          border-gradient-to-br from-blue-500 via-purple-500 to-pink-500">
             Download CV
           </button>
         </div>
