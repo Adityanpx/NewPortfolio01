@@ -8,7 +8,7 @@ const ProjectData = [
     id: 1,
     title: "React Grocery Store",
     description: "This is a grocery store application built with React.",
-    image: "/WeatherApp.png",
+    image: "",
     tag: ["ALL", "Web"],  // Updated tags
     gitUrl: "/",
     previewUrl: "/"
@@ -24,9 +24,9 @@ const ProjectData = [
   },
   {
     id: 3,
-    title: "Mobile Task Manager",
+    title: "Weather Details Application",
     description: "A task management application for mobile devices.",
-    image: "/hi.png",
+    image: "/WeatherApp.png",
     tag: ["ALL", "App"],   // Updated tags
     gitUrl: "/",
     previewUrl: "/"

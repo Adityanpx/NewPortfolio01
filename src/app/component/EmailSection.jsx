@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import Link from 'next/link';
 import React, { useState } from 'react';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
@@ -10,6 +10,7 @@ const EmailSection = () => {
   const handleChange = (e) => {
     const { id, value } = e.target;
     setFormData({ ...formData, [id]: value });
+    setStatus(''); // Clear status on new input
   };
 
   const handleSubmit = async (e) => {
@@ -36,17 +37,17 @@ const EmailSection = () => {
   return (
     <div className="grid md:grid-cols-2 my-12 md:my-12 py-24 gap-4">
       <div>
-        <h5 className="text-xl font-bold text-white my-2">Let's Connect</h5>
+        <h5 className="text-xl font-bold text-white my-2">Let&apos;s Connect</h5>
         <p className="text-[#ADB7BE] mb-4 max-w-md">
           DailyAmount CTE: This CTE aggregates amount by visited_on date, ensuring each date has a single row.
           MovingAverage CTE: Computes the 7-day moving sum and average on the aggregated daily values, ensuring no duplicate date issues.
           Filtering for Full 7-Day Window: The WHERE clause in the outer query limits the results to only dates where a full 7-day window is available.
         </p>
         <div className="social flex flex-row gap-2">
-          <Link href={"/"}>
+          <Link href="/" aria-label="GitHub">
             <FaGithub className="text-white" />
           </Link>
-          <Link href={"/"}>
+          <Link href="/" aria-label="LinkedIn">
             <FaLinkedin className="text-white" />
           </Link>
         </div>
@@ -66,7 +67,7 @@ const EmailSection = () => {
             />
           </div>
           <div className="mb-6">
-            <label className="text-white block mb-2 text-sm font-medium" htmlFor="email">Your e-mail</label>
+            <label className="text-white block mb-2 text-sm font-medium" htmlFor="email">Your E-mail</label>
             <input
               type="email"
               id="email"
