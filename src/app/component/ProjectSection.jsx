@@ -8,9 +8,9 @@ const ProjectData = [
     id: 1,
     title: "React Grocery Store",
     description: "This is a grocery store application built with React.",
-    image: "",
+    image: "/p2.png",
     tag: ["ALL", "Web"],  // Updated tags
-    gitUrl: "/",
+    gitUrl: "https://github.com/Adityanpx/Grocery-Store",
     previewUrl: "/"
   },
   {
@@ -19,7 +19,7 @@ const ProjectData = [
     description: "A full-featured car rental application.",
     image: "/rentalcar.png",
     tag: ["ALL", "Web"],  // Updated tags
-    gitUrl: "/",
+    gitUrl: "https://github.com/Adityanpx/CarOnRentalweb",
     previewUrl: "/"
   },
   {
@@ -27,46 +27,21 @@ const ProjectData = [
     title: "Weather Details Application",
     description: "A task management application for mobile devices.",
     image: "/WeatherApp.png",
-    tag: ["ALL", "App"],   // Updated tags
-    gitUrl: "/",
+    tag: ["ALL"],   // Updated tags
+    gitUrl: "https://github.com/Adityanpx/weatherApp",
     previewUrl: "/"
   },
-  {
-    id: 4,
-    title: "Chat Application",
-    description: "Real-time chat application built with React.",
-    image: "/hi.png",
-    tag: ["ALL", "App"],   // Updated tags
-    gitUrl: "/",
-    previewUrl: "/"
-  },
+  
   {
     id: 5,
     title: "Portfolio Website",
     description: "My personal portfolio website.",
-    image: "/hi.png",
+    image: "/p1.png",
     tag: ["ALL", "Web"],   // Updated tags
-    gitUrl: "/",
+    gitUrl: "https://github.com/Adityanpx/MyPortfolioNew01",
     previewUrl: "/"
-  },
-  {
-    id: 6,
-    title: "Fitness Tracker",
-    description: "An app to track fitness activities.",
-    image: "/hi.png",
-    tag: ["ALL", "App"],   // Updated tags
-    gitUrl: "/",
-    previewUrl: "/"
-  },
-  {
-    id: 7,
-    title: "Fitness Tracker",
-    description: "An app to track fitness activities.",
-    image: "/hi.png",
-    tag: ["ALL", "App"],   // Updated tags
-    gitUrl: "/",
-    previewUrl: "/"
-  },
+  }
+  
   // Add more projects as needed
 ];
 
