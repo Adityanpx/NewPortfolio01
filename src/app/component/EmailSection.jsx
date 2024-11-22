@@ -2,6 +2,8 @@
 import Link from 'next/link';
 import React, { useState } from 'react';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import { SiLeetcode } from "react-icons/si";
+
 
 const EmailSection = () => {
   const [formData, setFormData] = useState({ name: '', email: '', subject: '', message: '' });
@@ -43,14 +45,7 @@ const EmailSection = () => {
           MovingAverage CTE: Computes the 7-day moving sum and average on the aggregated daily values, ensuring no duplicate date issues.
           Filtering for Full 7-Day Window: The WHERE clause in the outer query limits the results to only dates where a full 7-day window is available.
         </p>
-        <div className="social flex flex-row gap-2">
-          <Link href="/" aria-label="GitHub">
-            <FaGithub className="text-white" />
-          </Link>
-          <Link href="/" aria-label="LinkedIn">
-            <FaLinkedin className="text-white" />
-          </Link>
-        </div>
+        
       </div>
       <div>
         <form onSubmit={handleSubmit} className="flex flex-col gap-6">

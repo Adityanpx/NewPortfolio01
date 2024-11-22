@@ -57,13 +57,13 @@ function ProjectSection() {
 
   return (
     <>
-      <h2 className="text-center text-4xl font-bold text-white mt-4">My Projects</h2>
+      <h2 className="text-center  text-4xl font-bold text-white mt-14 ">My Projects</h2>
       <div className="flex flex-row text-white justify-center items-center gap-2 py-6 ">
         <ProjectTag onClick={handleTagChange} name="All" isSelected={tag === "All"} />
         <ProjectTag onClick={handleTagChange} name="Web" isSelected={tag === "Web"} />
         <ProjectTag onClick={handleTagChange} name="App" isSelected={tag === "App"} />
       </div>
-      <div className="grid md:grid-cols-3 gap-8 md:gap-12 mt-4 object-contain">
+      <div className="grid md:grid-cols-3 gap-8 md:gap-12 mt-2 object-contain">
         {filteredProjects.map((project) => (
           <ProjectCard
             key={project.id}

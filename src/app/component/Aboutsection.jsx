@@ -12,6 +12,7 @@ const TAB_DATA = [
                 <li>Node.js</li>
                 <li>Next.js</li>
                 <li>JavaScript</li>
+                <li>Tableau</li>
                 <li>AWS</li>
                 <li>DOM Manipulation</li>
                 <li>Tableau</li>
@@ -35,8 +36,9 @@ const TAB_DATA = [
         id: "certification",
         content: (
             <ul className="list-disc pl-2">
-                <li>AWS Cloud Practitioner</li>
+                <li>SQL 50 LeetCode</li>
                 <li>Full-stack Developer</li>
+
             </ul>
         ),
     },
@@ -56,7 +58,7 @@ function AboutSection() {
 
     return (
         <div className="text-white">
-            <div className="md:grid md:grid-cols-2 items-center py-8 px-4 gap-8 xl:gap-16 sm:py-16 xl:px-10">
+            <div className="md:grid md:grid-cols-2 items-center py-8 px-4 gap-8 xl:gap-16 sm:py-16 xl:px-10 hidden md:flex ">
                 <Image
                     src="/pf1.jpeg"
                     alt="Illustration of a greeting"

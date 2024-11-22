@@ -55,9 +55,9 @@ function Navbar() {
             <Link href="/contact"> 
               <Button className="text-white hover:scale-125  transition-all duration-300" variant="link">Contact me</Button>
             </Link>
-            <Link href="/"> 
-              <Button className="text-white hover:scale-125  transition-all duration-300" variant="link">Another Link</Button>
-            </Link>
+              {/* <Link href="/"> 
+                <Button className="text-white hover:scale-125  transition-all duration-300" variant="link">Another Link</Button>
+              </Link> */}
           </nav>
         </div>
         <div className="flex items-center">
