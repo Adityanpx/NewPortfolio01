@@ -49,26 +49,41 @@ function HeroSection() {
           to innovative projects. I am eagerly waiting to work on live projects
           in industries that handle and evolve cutting-edge technologies.
         </p>
-        <div className="social flex text-3xl ml-4  flex-row gap-4 ">
-          <Link href="https://github.com/Adityanpx" aria-label="GitHub" className="hover:scale-125  transition-all duration-300">
-            <FaGithub className="text-white" />
-          </Link>
-          <Link href="https://www.linkedin.com/in/aditya-gavali-b79b4525a/" aria-label="LinkedIn" className="hover:scale-125  transition-all duration-300">
-            <FaLinkedin className="text-blue-500" />
-          </Link>
-          <Link href="https://leetcode.com/u/Adityanpx/" aria-label="LeetCode" className="hover:scale-125  transition-all duration-300">
-            <SiLeetcode className="text-yellow-500" />
-          </Link>
-          <Link 
-            href="https://wa.me/918600256200" 
-            aria-label="WhatsApp" 
-            className="hover:scale-125 transition-all duration-300"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <SiWhatsapp className="text-green-500" />
-          </Link>
-        </div>
+        <div className="flex flex-col sm:flex-row sm:items-center sm:justify-center text-center sm:text-left">
+  <div className="social flex text-3xl gap-4 justify-center sm:justify-start">
+    <Link
+      href="https://github.com/Adityanpx"
+      aria-label="GitHub"
+      className="hover:scale-125 transition-all duration-300"
+    >
+      <FaGithub className="text-white" />
+    </Link>
+    <Link
+      href="https://www.linkedin.com/in/aditya-gavali-b79b4525a/"
+      aria-label="LinkedIn"
+      className="hover:scale-125 transition-all duration-300"
+    >
+      <FaLinkedin className="text-blue-500" />
+    </Link>
+    <Link
+      href="https://leetcode.com/u/Adityanpx/"
+      aria-label="LeetCode"
+      className="hover:scale-125 transition-all duration-300"
+    >
+      <SiLeetcode className="text-yellow-500" />
+    </Link>
+    <Link
+      href="https://wa.me/918600256200"
+      aria-label="WhatsApp"
+      className="hover:scale-125 transition-all duration-300"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <SiWhatsapp className="text-green-500" />
+    </Link>
+  </div>
+</div>
+
         <div>
           {/* Add link to resume */}
           <Link href="/resume.pdf" target="_blank" rel="noopener noreferrer">
